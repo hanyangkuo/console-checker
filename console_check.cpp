@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+// show the question and allow user to use arrow key to choose yes or no and return the bool
 bool check(const string &qes) {
 	unsigned int color_y = 0 | BACKGROUND_RED | BACKGROUND_GREEN | BACKGROUND_BLUE;
 	unsigned int color_n = FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE;
